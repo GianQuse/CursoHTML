@@ -1,21 +1,46 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multimedia</title>
 </head>
+
 <body>
     <a href="index.html">Click Inicio</a>
     <h1>PAGINA MULTIMEDIA</h1>
-    <p>
-        Aca va una <i>Imagen</i>
-    </p>
-    <img src="https://www.apple.com/newsroom/images/2023/10/apple-unveils-new-macbook-pro-featuring-m3-chips/article/Apple-MacBook-Pro-2up-231030_Full-Bleed-Image.jpg.small_2x.jpg" alt="MacBook M3" width="300px">
+    <div>
+        <p>
+            Aca va una <i>Imagen</i>
+        </p>
+        <img src="https://www.apple.com/newsroom/images/2023/10/apple-unveils-new-macbook-pro-featuring-m3-chips/article/Apple-MacBook-Pro-2up-231030_Full-Bleed-Image.jpg.small_2x.jpg"
+            alt="MacBook M3" width="300px">
+    </div>
+    <div>
+        <p>
+            Aca va un <i>Video</i>
+        </p>
+        <video src="Video.mp4" width="300px" controls></video>
+        <!--IMPORTANTE!! AGREGAR "CONTROLS" PARA TENER LOS CONTROLES DEL VIDEO-->
+    </div>
 
-    <p>
-        Aca va un <i>Video</i>
-    </p>
-    <video src=""></video>
+    <div>
+        <h2>FORMULARIOS</h2>
+
+        <form action="">
+            <input type="text" name="texto" required>
+            <input type="password" name="contraseña" required>
+            <input type="number" name="numero">
+            <input type="email" name="correo" required>
+            <input type="date" name="dia">
+            <textarea name="textoLibre" id="" cols="30" rows="5"></textarea>
+            <input type="button" value="Boton"> <!--IMPORTANTE!! PONER "VALUE" A BUTTON PARA QUE TENGA UN NOMBRE EL BOTON, SI NO SE MUESTRA VACIO-->
+            <input type="submit">
+            <!--IMPORTANTE!! LOS QUE TIENEN "required" SE TIENEN QUE COMPLETAR SI O SI PARA QUE SE ENVIE-->
+        </form>
+    </div>
+    
 </body>
+
 </html>
